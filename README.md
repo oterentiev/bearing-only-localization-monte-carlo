@@ -22,7 +22,7 @@ $$
 For a station located at horizontal coordinate \(s_i\) on the x-axis, the bearing model implemented in the code is
 
 $$
-\theta_i(\mathbf{p}) = \operatorname{atan2}(y, x-s_i)
+\theta_i(\mathbf{p}) = \mathrm{atan2}(y, x-s_i)
 $$
 
 The measurement covariance matrix is diagonal and is constructed from the specified bearing standard deviations. WLS uses the inverse measurement covariance as its weight matrix. OLS uses the identity matrix.
