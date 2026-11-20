@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below and the DOI of the archived Zenodo release."
+title: "Monte Carlo Simulation of 2D Bearing-Only Object Localization Using Weighted and Unweighted Nonlinear Least Squares"
+authors:
+  - family-names: "Terentiev"
+    given-names: "Oleksandr"
+version: "1.0.0"
+date-released: "2026-11-21"
+type: software
+license: MIT
+repository-code: "https://github.com/oterentiev/bearing-only-localization-monte-carlo"
+abstract: >-
+  Python software implementing a Monte Carlo simulation framework for
+  two-dimensional bearing-only object localization. It compares weighted
+  and unweighted nonlinear least-squares estimators for three- and
+  four-station observation configurations and reports accuracy and
+  covariance-based uncertainty metrics.
+keywords:
+  - bearing-only localization
+  - Monte Carlo simulation
+  - weighted least squares
+  - ordinary least squares
+  - nonlinear estimation
+  - position estimation
+  - uncertainty analysis
